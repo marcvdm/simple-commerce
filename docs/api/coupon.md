@@ -70,7 +70,11 @@ The key/value will be set on the coupon's data.
 
 ### `code`
 
+The `code` method returns the coupon's code (a `string`).
+
 ### `isValid`
+
+The `isValid` method accepts an `$order` parameter (which should be an `Order` instance). It will return a `boolean`.
 
 ### `redeem`
 
